@@ -1,3 +1,4 @@
+
 print("Hello lua!")
 io.write("Lua is easy\n")
 
@@ -90,9 +91,9 @@ print(table.concat(aTable, ", "))
  
 -- Remover item no índice: (tabela, índice)
 table.remove(aTable, 1)
-print(table.concat(aTable, ", "))
+print(table.concat(aTable, ", ")) -- OBS: Só serve para tabelas com índices numéricos sequenciais (sem nils)
  
--- Ordenar itens em ordem reversa
+-- Ordenar itens em ordem decrescente
 table.sort(aTable, function(a,b) return a>b end)
 print(table.concat(aTable, ", "))
  

@@ -27,3 +27,4 @@ https://www.lua.org/manual/5.4/
 https://www.tutorialspoint.com/generic-for-in-lua-programming
 https://github.com/pohka/Lua-Beginners-Guide
 https://riptutorial.com/lua/example/20536/the--gmatch--function
+https://www.gammon.com.au/scripts/doc.php?lua=table.concat
