@@ -28,3 +28,7 @@ https://www.tutorialspoint.com/generic-for-in-lua-programming
 https://github.com/pohka/Lua-Beginners-Guide
 https://riptutorial.com/lua/example/20536/the--gmatch--function
 https://www.gammon.com.au/scripts/doc.php?lua=table.concat
+https://stackoverflow.com/questions/4911186/difference-between-and-in-lua
+https://www.tutorialspoint.com/lua/lua_object_oriented.htm
+https://opensource.com/article/22/10/object-oriented-lua
+https://www.lua.org/pil/16.html
