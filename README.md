@@ -18,3 +18,12 @@ make all test
 make linux-readline
 sudo make install
 ```
+
+## References
+
+https://www.newthinktank.com/2015/06/learn-lua-one-video/
+https://www.youtube.com/watch?v=jUuqBZwwkQw
+https://www.lua.org/manual/5.4/
+https://www.tutorialspoint.com/generic-for-in-lua-programming
+https://github.com/pohka/Lua-Beginners-Guide
+https://riptutorial.com/lua/example/20536/the--gmatch--function
