@@ -25,6 +25,8 @@ int main (void) {
 
         cout << i << "\n";
     }
+    //pop n elements
+    lua_pop(L,1);
     //clear stack
     lua_settop(L,0);
     //checkStack space
