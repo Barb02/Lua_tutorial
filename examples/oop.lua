@@ -1,4 +1,4 @@
--- Classes podem ser implementadas a partir de tables e metatables
+-- Classes podem ser implementadas a partir de tables, metatables e funções
 
 Enemy = {}
 

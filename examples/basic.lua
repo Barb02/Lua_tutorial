@@ -70,12 +70,7 @@ print()
 print("================== Tables ==================")
 
 -- Criar uma tabela
-aTable = {}
- 
--- Adicionar valores a uma tabela
-for i = 1, 10 do
-  aTable[i] = i
-end
+aTable = {1, 2, 3, 4, 5}
  
 -- Acessar valor pelo índice (OBS: índices começam em 1)
 io.write("First Item : ", aTable[1], "\n")
@@ -100,12 +95,14 @@ print(table.concat(aTable, ", "))
 -- Criar uma tabela multidimensional
 aMultiTable = {}
  
-for i = 0, 9 do
+for i = 0, 9 do -- índices podem ser o que nós definirmos (índice = key)
   aMultiTable[i] = {}
   for j = 0, 9 do
-    aMultiTable[i][j] = tostring(i) .. tostring(j)
+    aMultiTable[i][j] = tostring(i) .. "," .. tostring(j)
   end
 end
+
+print(aMultiTable[1][5]) -- 1,5
 
 -- For estilo "foreach" (itera sobre uma tabela)
 dias = {"Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado", "Domingo"}
@@ -143,7 +140,7 @@ end
 
 print(funcVar) 
    
-function splitAndCount(str)
+function split(str)
     local words = {} -- Table vazia
     local i = 1
 
@@ -157,7 +154,7 @@ function splitAndCount(str)
 end
    
 -- Recebe múltiplos valores
-words, count = splitAndCount("Complementos sobre linguagens de programação")
+words, count = split("Complementos sobre linguagens de programação")
 
 for j = 1, count do
     print(string.format("%d : %s", j, words[j]))
